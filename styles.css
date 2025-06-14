@@ -1,0 +1,48 @@
+
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('bats-bg.png') repeat-x;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 300px;
+}
+
+main {
+    padding: 20px;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    color: #8affcc;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #888;
+}
