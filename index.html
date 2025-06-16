@@ -2,44 +2,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Van-Grieken | Gothica Qvlona</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-
-    body {
-      margin: 0;
-      font-family: 'UnifrakturCook', cursive;
-      background: url('bats-bg.jpeg') no-repeat center center fixed;
-      background-size: cover;
-      color: #d4fddf;
-      text-align: center;
-    }
-    header {
-      padding: 2em;
-    }
-    .featured {
-      margin: 3em auto;
-      max-width: 600px;
-      box-shadow: 0 0 30px rgba(0,0,0,0.7);
-      border: 3px solid #333;
-    }
-    footer {
-      margin-top: 2em;
-      font-size: 0.9em;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/icon.png" />
 </head>
 <body>
-  <header>
-    <img src="Van-Grieken.png" alt="Van-Grieken" style="max-width: 90%; height: auto;">
-  </header>
-  <main>
-    <img src="featured-image.jpeg" class="featured" alt="Arte Gothica Qvlona">
-  </main>
-  <footer>
-    <p>Van-Grieken - Gothica Qvlona</p>
-  </footer>
+  <div class="overlay"></div>
+  <div class="container">
+    <header>
+      <img src="assets/van-grieken-logo.png" alt="Van-Grieken Logo" class="logo" />
+    </header>
+    <main>
+      <img src="assets/main-image.jpeg" alt="Imagen Central" class="main-image" />
+      <img src="assets/gothica-qvulona.png" alt="Gothica Qvlona" class="gothica-logo" />
+      <div class="social-links">
+        <a href="https://www.instagram.com/brutalloyal/?hl=es-la" target="_blank"><img src="assets/instagram.png" alt="Instagram" /></a>
+        <a href="https://www.tiktok.com/@luisvangrieken?is_from_webapp=1&sender_device=pc" target="_blank"><img src="assets/tiktok.png" alt="TikTok" /></a>
+        <a href="https://youtube.com/@luisvangrieken2656?si=rmR75G_45KhNmJlW" target="_blank"><img src="assets/youtube.png" alt="YouTube" /></a>
+        <a href="https://open.spotify.com/intl-es/artist/24hpZ0TYTCAh2mRa94jAaW?si=LZYZrksJSvCEBJiZAa0htA" target="_blank"><img src="assets/spotify.png" alt="Spotify" /></a>
+        <a href="https://music.apple.com/co/artist/vangrieken/1820378046" target="_blank"><img src="assets/applemusic.png" alt="Apple Music" /></a>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
